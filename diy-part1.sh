@@ -16,6 +16,8 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
+git clone https://github.com/maxlicheng/luci-app-unblockmusic package/luci-app-unblockmusic
+git clone https://github.com/Kiougar/luci-wrtbwmon package/luci-wrtbwmon
 
 git clone https://github.com/DFlinmo/UA2F package/UA2F
 cd package/UA2F
